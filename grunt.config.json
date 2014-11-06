@@ -1,0 +1,6 @@
+{
+	"name": "zeroling",
+	"js": ["dev/js/**/*.js"],
+	"css": ["dev/css/*.css"],
+	"images": ["dev/images/**/*.{png,jpg,jpeg}"]
+}
