@@ -2,8 +2,9 @@
   "name": "Protal",
   "version": "0.0.1",
   "description": "Redrock Protal",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "repository": "https://github.com/wssgcg1213/Redrock-Protal.git",
   "author": "zeroling",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
 }
