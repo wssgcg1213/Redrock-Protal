@@ -251,7 +251,7 @@ a {
     .g-main .g-container .tab-novel .g-icon-wrap {
       background: url("../images/structures/icons/slider-tabs.png") no-repeat center -363px; }
     .g-main .g-container .tab-film .g-icon-wrap {
-      background: #4bca7e url("../images/structures/icons/slider-tabs.png") no-repeat center -281px; }
+      background: url("../images/structures/icons/slider-tabs.png") no-repeat center -281px; }
     .g-main .g-container .tab-products, .g-main .g-container .tab-daily, .g-main .g-container .tab-learn {
       background: #ffc029;
       background-image: -ms-linear-gradient(top, #ffc029, #ffbb25);

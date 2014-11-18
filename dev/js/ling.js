@@ -12,7 +12,7 @@
 
     function bindSwitcher($slider, $tabs){
         $tabs.each(function(i, item){
-            $(item).on('mouseover', function(){
+            $(item).on('click', function(){
                 $slider.hide();
                 $tabs.removeClass('z-active');
                 $(this).addClass('z-active');
