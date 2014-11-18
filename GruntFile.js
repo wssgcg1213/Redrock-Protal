@@ -36,19 +36,7 @@ module.exports = function(grunt) {
             }
           }
         ]
-  		},
-      beatify: {
-        options: {
-          beautify: true
-        },
-        files: [
-          {
-            expand: true,
-            filter: 'isFile',
-            src: '<%= config.js %>'
-          }
-        ]
-      }
+  		}
   	},
 
     //js强制检测
@@ -87,7 +75,7 @@ module.exports = function(grunt) {
         spawn: false,
       },
       files: ['<%= config.js %>','<%= config.css %>', '<%= config.images %>'],
-      tasks: ['imagemin', 'uglify', 'jshint', 'cssmin']
+      tasks: ['imagemin', 'uglify', 'cssmin']
     },
 
   });
