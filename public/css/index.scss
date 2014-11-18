@@ -212,7 +212,7 @@ a{
       }
       a{
         display: block;
-        width: 107px;
+        width: 122px;
         height: 60px;
         line-height: 20px;
         white-space: normal;
@@ -235,6 +235,7 @@ a{
       width: 142px;
       height: 117px;
       position: relative;
+      cursor: pointer;
       .g-icon-wrap{
         width: 142px;
         height: 117px;
@@ -262,11 +263,9 @@ a{
         left: 0;
         top: 0;
         z-index: 50;
+        -webkit-transition:top ease-in-out 300ms;
       }
     }
-    /*.z-active{
-      background:#ffa85d !important;
-    }*/
     .tab-hot .g-icon-wrap{
       background:url("../images/structures/icons/slider-tabs.png") no-repeat center 40px;
     }
@@ -302,7 +301,7 @@ a{
       background: url("../images/structures/icons/slider-tabs.png") no-repeat center -363px;
     }
     .tab-film .g-icon-wrap{
-      background: #4bca7e url("../images/structures/icons/slider-tabs.png") no-repeat center -281px;
+      background: url("../images/structures/icons/slider-tabs.png") no-repeat center -281px;
     }
     .tab-products,.tab-daily,.tab-learn{
       background:#ffc029;
@@ -322,9 +321,13 @@ a{
       background: url("../images/structures/icons/slider-tabs.png") no-repeat center -602px;
     }
   }
+  .m-slider-con,.m-news-con,.m-teach-con,.m-novels,.m-films{
+    width: 582px;
+    height: 351px;
+    overflow: hidden;
+  }
   .m-slider-con{
    /* display: none;*/
-    height: 352px;
     .u-img-con{
       height: 100%;
       position: relative;
@@ -333,18 +336,9 @@ a{
     .u-new-p:hover{
       text-decoration: underline;
     }
-    .u-sli-main{
-      margin-right: 1px;
-    }
-    .u-sli-minor{
-      .u-sli-list3{
-        margin-top: 1px;
-      }
-    }
   }
 
   .m-news-con,.m-teach-con{
-    width: 580px;
     display: none;
     td{
       font-size: 14px;
@@ -357,7 +351,7 @@ a{
     }
     .new-time,a{
       color: #999999;
-      line-height: 26px;
+      line-height: 25px;
       font-family: "宋体";
     }
     a{
@@ -393,7 +387,7 @@ a{
       }
       p a{
         color: #666666;
-        line-height: 23px;
+        line-height: 22px;
         padding-left: 12px;
         background: url("../images/structures/dot.gif") no-repeat left -20px;
       }
@@ -918,6 +912,7 @@ footer{
     border: none;
     color: #ffffff;
     margin-top: 8px;
+    cursor: pointer;
   }
  .u-exit{
    width: 18px;
